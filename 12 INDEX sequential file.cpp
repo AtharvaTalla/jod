@@ -205,3 +205,58 @@ int main() {
     } while (ch != 7);
     return (0);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ALGORITHM :
+// 1. Include necessary header files:
+//  iostream: for input/output operations
+//  fstream: for file operations
+//  cstring: for string-related operations
+// 2. Define Employee structure:
+//  Define a structure named Employee with fields such as employeeID, name, designation, and
+// salary.
+// 3. Function Prototypes:
+//  Declare function prototypes for addEmployee, deleteEmployee, and displayEmployee.
+// 4. Main Function:
+//  Open a file stream (fstream) with the name &quot;employee_data.dat&quot; for input, output, binary, and
+// append operations.
+//  Display a menu with options to add, delete, display employees, and exit.
+// 5. Add Employee Function (addEmployee):
+//  Create an Employee structure variable (emp).
+//  Prompt the user to enter employee details (ID, name, designation, salary).
+//  Check if the employee with the entered ID already exists in the file.
+//  If yes, display a message and return.
+//  If no, write the employee details to the file.
+//  Display a success message.
+// 6. Delete Employee Function (deleteEmployee):
+//  Prompt the user to enter the employee ID to delete.
+//  Create an Employee structure variable (emp).
+//  Create a temporary file stream (fstream) named &quot;temp.dat&quot; for output and binary operations.
+//  Read each employee record from the main file.
+//  If the ID matches the one to be deleted, skip that record.
+//  Otherwise, write the record to the temporary file.
+//  Close both file streams.
+//  Remove the original file and rename the temporary file to the original file name.
+//  Display a success message.
+
+// 7. Display Employee Function (displayEmployee):
+//  Prompt the user to enter the employee ID to display.
+//  Create an Employee structure variable (emp).
+//  Read each employee record from the main file.
+//  If the ID matches the one to be displayed, print the details and return.
+//  If the ID is not found, display a message indicating that the employee was not found.
+// 8. Repeat:
+//  Continue displaying the menu and processing user input until the user chooses to exit.
+// 9. Close File Stream:
+//  Close the file stream before exiting the program.
