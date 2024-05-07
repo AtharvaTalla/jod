@@ -223,3 +223,29 @@ int main () {
 
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+// Detailed Steps:
+// 1. Start the main function.
+// 2. Initialize AVL tree root as NULL.
+// 3. Loop until the user chooses to exit:
+//  Prompt user to choose an operation (insertion, deletion, exit).
+//  If insertion:
+// 1. Prompt user for the number of values to insert.
+// 2. Insert each value into the AVL tree using the insert function.
+//  Print the AVL tree and its height after insertion.
+//  If deletion:
+//  Prompt user for the value to delete.
+//  Delete the value from the AVL tree using the Delete function.
+//  Print the AVL tree and its height after deletion.
+//  If exit, end the loop.
+// 4. End of the algorithm.
