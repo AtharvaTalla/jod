@@ -127,3 +127,19 @@ int main() {
     obj.build_tree();
     return 0;
 }
+
+
+
+
+
+
+
+// Detailed Steps:
+// 1. Start the main function.
+// 2. Create a vector of Node named keys representing keys and their probabilities.
+// 3. Call constructOBST with keys, 0 as the starting index, and keys.size() - 1 as the ending index.
+//  Inside the constructOBST function:
+//  Recursively find the optimal root and construct the left and right subtrees.
+// 4. The resulting root of the constructed OBST is stored in the variable root.
+// 5. Perform any necessary operations on the constructed OBST.
+// 6. End of the algorithm.
