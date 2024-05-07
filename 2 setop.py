@@ -55,3 +55,63 @@ while op:
         print(set1.difference(set2), '----------', set1 - set2)
         print(set1.symmetric_difference(set2), '----------', set1 ^ set2)
     op = int(input("Press 0 to exit and 1 to continue: "))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Algorithm Union (set A, set B)
+#     a) Initialize union U as empty.
+#     b) Copy all elements of set A to U.
+#     c) Do following for every element x of set B:
+#         • If x is not present in A, then copy x to U.
+#     d) Return U.
+# Algorithm Intersection (set A, set B)
+#     1) Initialize intersection set I as empty.
+#     2) Do following for every element x of set A:
+#     a) If x is present in set B, then copy x to I.
+#     3) Return I.
+# Algorithm Difference (set A, set B)
+#     1) Initialize difference set D as empty.
+#     2) Do following for every element x of set A:
+#         a) If x is not present in set B, then copy x to D.
+#     3) Return D.
+# Algorithm Subset (set A, set B)
+#     1) Do following for every element x of set A:
+#         a) If x is present in set B, then return A is subset of B
+#             else
+#             return A is not subset of B
+# Algorithm Proper Subset (set A, set B)
+#     1) Do following for every element x of set A:
+#         a) If x is present in set B and B&gt;A, then return A is proper subset of B
+#             else
+#             return A is not proper subset of B
