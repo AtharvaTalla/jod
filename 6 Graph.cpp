@@ -90,3 +90,59 @@ int main()
     cout << "BFS: ";
     bfs(u, n, cities);
     return 0;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Algorithm: Check Flight Network Connectivity
+// Detailed Steps:
+// 1. Start the main function.
+// 2. Initialize a Graph object named graph.
+// 3. Replace the cities vector with the actual list of cities in the flight network.
+// 4. Replace the flights vector with the actual flight data represented as tuples of (source, destination, cost).
+// 5. Iterate through each flight in the flights vector:
+//  Extract source, destination, and cost from the tuple.
+//  Call the addFlight method on the graph object with source, destination, and cost as arguments.
+//  Call the isConnected method on the graph object.
+// 6. Inside the isConnected method:
+//  Create a vector visited to track visited cities, initialized to false.
+//  Call the dfs method starting from any city (assume city at index 0).
+//  Check if all cities are visited.
+//  If true, print &quot;The flight network is connected!&quot;
+//  If false, print &quot;The flight network is not connected.&quot;
+// 7. End of the algorithm.
+
+
+
+
+
+
+
+
+
+
+// Detailed Steps:
+// a. Start the main function.
+// b. Initialize a vector of cities and an adjacency matrix with all values initialized to zero.
+// c. Replace the vector of cities and flights with actual flight data.
+// d. Iterate through each flight in the flight data, calling addFlight for each flight.
+// e. Check if the flight network is connected using the isConnected function.
+// f. Inside the isConnected function:
+// g. Create a vector visited to track visited cities, initialized to false.
+// h. Call the dfs function starting from any city (assume city at index 0).
+// i. Check if all cities are visited.
+// j. If true, print &quot;The flight network is connected!&quot;
+// k. If false, print &quot;The flight network is not connected.&quot;
+// l. End of the algorithm.
