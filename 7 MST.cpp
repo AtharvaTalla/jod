@@ -97,3 +97,27 @@ int main () {
     } while (choice != 4);
     return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+// Detailed Steps:
+// 1. Start the main function.
+// 2. Create an example graph (replace with actual data) using an adjacency list representation.
+// 3. Call the primMST function with the example graph.
+//  Inside the primMST function:
+//  Initialize necessary data structures.
+//  Set the key value of the starting vertex to 0 and push it into a priority queue.
+//  Iterate through the priority queue until it&#39;s empty.
+//  Update key values and push vertices into the priority queue.
+//  Calculate and return the total cost of the MST.
+// 4. Print the minimum total cost for connecting all offices.
+// 5. End of the algorithm.
